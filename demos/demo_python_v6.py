@@ -1,3 +1,6 @@
+# run using the following command: 
+# ~/.local/share/ov/pkg/isaac-sim-4.2.0/python.sh demos/demo_python_v6.py 
+
 # fixed marker, random camera position, camera orientation determined to point at marker, random lighting, random aluminum bars in background 
 from isaacsim import SimulationApp
 simulation_app = SimulationApp({"headless": False}) # we can also run as headless.
